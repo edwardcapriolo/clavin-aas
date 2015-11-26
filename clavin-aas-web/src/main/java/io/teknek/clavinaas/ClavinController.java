@@ -1,4 +1,4 @@
-package com.huffingtonpost.clavinaas;
+package io.teknek.clavinaas;
 
 import java.util.List;
 

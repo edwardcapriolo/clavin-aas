@@ -71,7 +71,6 @@
                 </developer>
         </developers>
 	      <build>
-                <finalName>teknek-web</finalName>
                 <pluginManagement>
                         <plugins>
                                 <plugin>

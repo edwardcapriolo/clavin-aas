@@ -86,7 +86,7 @@
                 </developer>
         </developers>
 	<modules>
-		<!--<module>clavin-aas-client</module>-->
+		<module>clavin-aas-client</module>
 		<module>clavin-aas-web</module>
 	</modules>
 </project>
