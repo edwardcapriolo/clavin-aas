@@ -18,15 +18,14 @@ public class ClavinController {
   private GeoParser parser;
   
   @RequestMapping("/locate-document")
-  public @ResponseBody List<ResolvedLocation> locate(@RequestParam String title, @RequestParam String content) throws Exception {
+  public @ResponseBody List<ResolvedLocation> locateDocument(@RequestParam String title, @RequestParam String content) throws Exception {
     String inputString = title + " " + content;
     List<ResolvedLocation> resolvedLocations = parser.parse(inputString);
     return resolvedLocations;
   }
   
-  //@RequestMapping (method = RequestMethod.POST)
   @RequestMapping ("/locate")
-  public @ResponseBody List<ResolvedLocation> locate2(@RequestParam String text) throws Exception {
+  public @ResponseBody List<ResolvedLocation> locate(@RequestParam String text) throws Exception {
     List<ResolvedLocation> resolvedLocations = parser.parse(text);
     return resolvedLocations;
   }

@@ -12,7 +12,7 @@
         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
         http://www.springframework.org/schema/jdbc
         http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd">
-        <context:component-scan base-package="com.huffingtonpost.clavinaas" />
+        <context:component-scan base-package="io.teknek.clavinaas" />
         <bean id="parser" class="com.bericotech.clavin.GeoParserFactory" factory-method="getDefault">
         	<constructor-arg type="String" value="/tmp/IndexDirectory"></constructor-arg>
         </bean>
