@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.teknek</groupId>
 	<artifactId>clavin-aas-parent</artifactId>
-	<version>0.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<description>Provides clavin geo-location library as a web service</description>
 	<packaging>pom</packaging>
 	<properties>

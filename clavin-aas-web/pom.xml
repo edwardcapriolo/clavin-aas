@@ -4,11 +4,11 @@
 	<parent>
 		<groupId>io.teknek</groupId>
 		<artifactId>clavin-aas-parent</artifactId>
-        	<version>0.0.0</version>
+        	<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>clavin-aas-web</artifactId>
-	<version>0.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<properties>
 		<spring.version>4.0.3.RELEASE</spring.version>
